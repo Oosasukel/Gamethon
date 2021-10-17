@@ -29,16 +29,16 @@ public class ShareManager : MonoBehaviour, IInteractable
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
-    }
-
-    void Start()
-    {
-        HideTips();
 
         gameManager = FindObjectOfType<GameManager>();
 
         gameManager.OnFinishSetupShares += setupShare;
         gameManager.OnChangeWeek += handleWeekChange;
+    }
+
+    void Start()
+    {
+        HideTips();
     }
 
     private GameObject CreateCircle(Vector2 anchoredPosition)

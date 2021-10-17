@@ -9206,6 +9206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Share
       objectReference: {fileID: 0}
+    - target: {fileID: 6269576777794248008, guid: a780856afd6bfca49b6c96a474a087ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6269576777794248011, guid: a780856afd6bfca49b6c96a474a087ce, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -12101,6 +12105,10 @@ PrefabInstance:
     - target: {fileID: 6269576777794248008, guid: a780856afd6bfca49b6c96a474a087ce, type: 3}
       propertyPath: m_Name
       value: Share (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269576777794248008, guid: a780856afd6bfca49b6c96a474a087ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6269576777794248011, guid: a780856afd6bfca49b6c96a474a087ce, type: 3}
       propertyPath: m_RootOrder

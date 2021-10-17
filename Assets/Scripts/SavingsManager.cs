@@ -17,15 +17,15 @@ public class SavingsManager : MonoBehaviour, IInteractable
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+
+        gameManager = FindObjectOfType<GameManager>();
+
+        gameManager.OnChangeMonth += handleMonthChange;
     }
 
     void Start()
     {
         HideTips();
-
-        gameManager = FindObjectOfType<GameManager>();
-
-        gameManager.OnChangeMonth += handleMonthChange;
     }
 
     public void ShowTips()

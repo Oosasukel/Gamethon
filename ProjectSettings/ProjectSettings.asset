@@ -614,11 +614,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Template_3D
   metroPackageVersion: 
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: Soft Miner
+  metroCertificateIssuer: Soft Miner
+  metroCertificateNotAfter: 0095681a67e2d801
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: 

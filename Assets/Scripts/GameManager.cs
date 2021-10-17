@@ -62,9 +62,16 @@ public class GameManager : MonoBehaviour
 
         shares = Utils.GetShares(sharesCount);
 
+        Debug.Log("shares" + shares.Count.ToString());
+
         if (OnFinishSetupShares != null)
         {
+            Debug.Log("OnFinishSetupShare");
             OnFinishSetupShares();
+        }
+        else
+        {
+            Debug.Log("OnFinishSetupShare null");
         }
 
         pocketCashText.text = $"R$ {pocketCash.ToString("N2")}";
